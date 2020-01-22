@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <!-- meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0" -->
+        
+        <title>Back to App</title>
+        
+        <link rel="stylesheet" type="text/css" media="all" href="/css/group.css" />
+        <style type="text/css">
+            .appStoreURL:before {content: "请安装唱聊iOS客户端：复制下面链接、在浏览器中打开："; color: gray;}
+        </style>
+        
+        <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="/js/noie.js"></script>
+        
+        <script type="text/javascript" src="back2app.js"></script>
+    </head>
+    
+    <body class="group">
+        <header>
+            <h3>Back to App</h3>
+            <nav><a href="../">BACK</a></nav>
+        </header>
+        <hr />
+        <article>
+            <section>
+                <ul type="circle">
+                    <li><a href="javascript: window.openApp('guachat://');">Back to App</a><span>guachat://</span></li>
+                    <li><a href="javascript: window.openApp('test://');">CANNOT Back to App: Restart or Install App</a><span>test://</span></li>
+                    <li><a href="javascript: window.openApp2('test://');">CANNOT Back to App: Restart</a><span>test://</span></li>
+                </ul>
+            </section>
+        </article>
+    </body>
+</html>
+

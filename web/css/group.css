@@ -1,0 +1,63 @@
+.group {
+    margin: 0; padding: 0;
+}
+
+.group h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.group header {
+    padding: 10px;
+}
+.group header h3 {
+    display: inline;
+}
+
+.group nav {
+    float: right;
+}
+
+.group hr {
+    margin: 0;
+}
+.group ul {
+    padding-left: 30px;
+}
+.group li {
+    padding: 10px 0;
+    list-style: circle;
+}
+.group li span {
+    color: gray;
+    margin-left: 5px;
+}
+
+.group article {
+}
+
+.group article section {
+    margin: 5px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.group article section h4 {
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.group article section.collapse h4 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.group article section ul {
+    margin: 0;
+}
+.group article section.collapse ul {
+    display: none;
+}
+
