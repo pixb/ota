@@ -13,10 +13,10 @@ COPY . $OTA_PATH
 EXPOSE 1337
 
 # 切换镜像源
-CMD  mpm config set registry https://registry.npm.taobao.org
+RUN  npm config set registry https://registry.npm.taobao.org
 
 # 安装所需要的包
-CMD sh npm_install.sh
+RUN sh npm_install.sh
 
 # 启动服务器
 CMD node /work/ota/index.js
